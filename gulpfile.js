@@ -1,12 +1,12 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var rubysass = require('gulp-ruby-sass');
 var scsslint = require('gulp-scss-lint');
 
-gulp.task('default', ['scss-lint', 'sass']);
+gulp.task('default', ['scss-lint', 'rubysass']);
 
-gulp.task('sass', function () {
+gulp.task('rubysass', function () {
     gulp.src('./scss/*.scss')
-        .pipe(sass())
+        .pipe(rubysass())
         .pipe(gulp.dest('./scss/'));
 });
 
