@@ -1,0 +1,7 @@
+# DS_Store
+.DS_Store
+
+# css and sass cache
+.sass-cache
+**/.sass-cache
+**/.sass-cache/
