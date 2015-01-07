@@ -1,0 +1,11 @@
+{
+  "name": "davidadams",
+  "version": "0.0.1",
+  "description": "David Adams main site",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "~3.6.0",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-scss-lint": "^0.1.3"
+  }
+}
