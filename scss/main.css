@@ -137,13 +137,14 @@ article h2 {
   margin: 0;
   padding: 0; }
 article .blog-image {
-  background-size: 200px 200px;
+  background-size: cover;
   background-repeat: no-repeat;
   clear: left;
   float: left;
   height: 200px;
   margin-right: 20px;
-  width: 200px; }
+  width: 200px;
+  background-position: 50%; }
 article p {
   font-size: 14px; }
 

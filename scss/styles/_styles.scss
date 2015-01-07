@@ -164,14 +164,15 @@ article {
     padding: 0;
   }
 
-  .blog-image {
-    background-size: 200px 200px;
+  .blog-image {    
+    background-size: cover;
     background-repeat: no-repeat;
     clear: left;
     float: left;
     height: 200px;
     margin-right: 20px;
     width: 200px;
+    background-position: 50%;
   }
 
   p {
