@@ -136,10 +136,12 @@ article h2 {
   font-weight: 100;
   margin: 0;
   padding: 0; }
-article img {
+article .blog-image {
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
   clear: left;
   float: left;
-  height: auto;
+  height: 200px;
   margin-right: 20px;
   width: 200px; }
 article p {
