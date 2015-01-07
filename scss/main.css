@@ -92,6 +92,20 @@ header {
   header h2 {
     font-size: 30px;
     padding-top: 20px; }
+  header .social_media_wrapper {
+    margin-right: 30px; }
+  header .social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 15px 5px 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -ms-transition: -ms-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out; }
+    header .social-icon:hover {
+      transform: rotate(7deg);
+      -ms-transform: rotate(7deg);
+      -webkit-transform: rotate(7deg); }
 
 article div {
   display: block;
