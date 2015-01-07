@@ -40,20 +40,23 @@ section {
   max-width: 100%;
   width: 900px; }
 
-nav {
+nav,
+.mobile-nav {
   background-color: #fff;
   box-shadow: 1px 1px 3px #333;
   height: 67px;
   margin-bottom: 30px;
   width: 100%; }
-  nav ul {
+  nav ul,
+  .mobile-nav ul {
     list-style: none;
     margin: 0;
     min-height: 67px;
     padding: 0 0 5px;
     text-align: center;
     width: 100%; }
-  nav li {
+  nav li,
+  .mobile-nav li {
     -webkit-box-sizing: border-box;
     /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;
@@ -63,15 +66,21 @@ nav {
     display: inline-block;
     padding: 20px;
     text-transform: capitalize; }
-  nav a {
+  nav a,
+  .mobile-nav a {
     color: #000;
     cursor: pointer; }
-  nav a:hover {
+  nav a:hover,
+  .mobile-nav a:hover {
     color: #c4943a; }
-  nav .active {
+  nav .active,
+  .mobile-nav .active {
     color: #fff;
     background-color: #D6B474;
     border-bottom: 5px solid #c4943a; }
+
+.mobile-nav {
+  display: none; }
 
 header {
   background-image: url("../images/header3.jpg");
@@ -88,12 +97,15 @@ header {
     padding-right: 20px; }
   header h1 {
     font-size: 70px;
-    padding-top: 50px; }
+    padding-top: 5%; }
   header h2 {
     font-size: 30px;
-    padding-top: 20px; }
+    padding-top: 2%;
+    width: 50%;
+    float: right; }
   header .social_media_wrapper {
-    margin-right: 30px; }
+    margin-right: 30px;
+    clear: both; }
   header .social-icon {
     display: inline-block;
     width: 40px;
@@ -124,12 +136,15 @@ article h2 {
   font-weight: 100;
   margin: 0;
   padding: 0; }
-article img {
+article .blog-image {
+  background-size: cover;
+  background-repeat: no-repeat;
   clear: left;
   float: left;
   height: 200px;
   margin-right: 20px;
-  width: 200px; }
+  width: 200px;
+  background-position: 50%; }
 article p {
   font-size: 14px; }
 
@@ -209,5 +224,131 @@ footer {
     border: solid 1px #c4943a;
     background-color: #D6B474;
     cursor: pointer; }
+
+@media screen and (max-width: 480px) {
+  header {
+    background: #eee;
+    height: 100%;
+    position: relative;
+    text-align: center; }
+    header .social-icon {
+      width: 20%;
+      height: auto;
+      margin: 15px 1.25% 15px; }
+    header .social_media_wrapper {
+      margin-right: 0px;
+      max-height: 100%; }
+    header h2 {
+      float: none;
+      width: 100%; }
+
+  nav {
+    display: none; }
+
+  .blog-image {
+    display: none; }
+
+  .mobile-nav {
+    display: inline;
+    height: 100%;
+    margin-bottom: 0px; }
+    .mobile-nav li {
+      width: 100%;
+      border: 1px solid #bbb; }
+    .mobile-nav ul {
+      height: 100%; } }
+@media screen and (min-width: 481px) and (max-width: 565px) {
+  header {
+    background: #eee;
+    height: 100%;
+    position: relative;
+    text-align: center; }
+    header .social-icon {
+      width: 12%;
+      height: auto;
+      margin: 15px 1.25% 15px; }
+    header .social_media_wrapper {
+      margin-right: 0px;
+      max-height: 100%; }
+    header h2 {
+      float: none;
+      width: 100%; }
+
+  nav {
+    display: none; }
+
+  .blog-image {
+    display: none; }
+
+  .mobile-nav {
+    display: inline;
+    height: 100%;
+    margin-bottom: 0px; }
+    .mobile-nav li {
+      width: 100%;
+      border: 1px solid #bbb; }
+    .mobile-nav ul {
+      height: 100%; } }
+@media screen and (min-width: 566px) and (max-width: 640px) {
+  header {
+    background: #eee;
+    height: 100%;
+    position: relative;
+    text-align: center; }
+    header .social-icon {
+      width: 12%;
+      height: auto;
+      margin: 15px 1.25% 15px; }
+    header .social_media_wrapper {
+      margin-right: 0px;
+      max-height: 100%; }
+    header h2 {
+      float: none;
+      width: 100%; }
+
+  nav {
+    display: none; }
+
+  .blog-image {
+    display: inline; }
+
+  .mobile-nav {
+    display: inline;
+    height: 100%;
+    margin-bottom: 0px; }
+    .mobile-nav li {
+      width: 100%;
+      border: 1px solid #bbb; }
+    .mobile-nav ul {
+      height: 100%; } }
+@media screen and (min-width: 641px) and (max-width: 850px) {
+  header {
+    background-image: url("../images/header3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    max-height: 100%;
+    text-align: right; }
+    header .social-icon {
+      width: 8%;
+      height: auto; }
+    header .social_media_wrapper {
+      clear: both;
+      margin-right: 0px; }
+    header h2 {
+      width: 35%;
+      float: right;
+      display: inline-block; }
+    header h1 {
+      padding-top: 1%; }
+
+  .blog-image {
+    display: inline; }
+
+  .mobile-nav {
+    display: none; }
+
+  nav {
+    margin-bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */
