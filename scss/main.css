@@ -46,8 +46,6 @@ nav {
   height: 67px;
   margin-bottom: 30px;
   width: 100%; }
-
-
   nav ul {
     list-style: none;
     margin: 0;
@@ -82,25 +80,6 @@ header {
   height: 330px;
   text-align: right;
   width: 100%; }
-
-  .social-icon {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin: 5px;    
-    -webkit-transition: -webkit-transform .2s ease-in-out;
-    -ms-transition: -ms-transform .2s ease-in-out;
-    transition: transform .2s ease-in-out; 
-  }
-.social-icon:hover {
-    transform:rotate(7deg);
-    -ms-transform:rotate(7deg);
-    -webkit-transform:rotate(7deg);
-}
-
-  .social_media_wrapper {
-    margin-right: 30px;
-  }
   header h1,
   header h2 {
     font-family: 'Tangerine', cursive;
@@ -113,6 +92,20 @@ header {
   header h2 {
     font-size: 30px;
     padding-top: 20px; }
+  header .social_media_wrapper {
+    margin-right: 30px; }
+  header .social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 15px 5px 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -ms-transition: -ms-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out; }
+    header .social-icon:hover {
+      transform: rotate(7deg);
+      -ms-transform: rotate(7deg);
+      -webkit-transform: rotate(7deg); }
 
 article div {
   display: block;
