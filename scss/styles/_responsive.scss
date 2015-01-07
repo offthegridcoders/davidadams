@@ -1,0 +1,159 @@
+@media screen and (max-width: 480px) {	
+	header { 	
+		background: #eee;
+		height: 100%;
+		position: relative;
+		text-align: center;		
+		.social-icon {		
+    	width: 20%;
+    	height: auto;
+    	margin: 15px 1.25% 15px;
+		}
+		.social_media_wrapper {
+    	margin-right: 0px;
+    	max-height: 100%;
+  		}
+  		h2 {
+  			float: none;
+  			width: 100%;
+  		}
+	}
+	nav {
+		display: none;
+	}
+	.blog-image {
+		display: none;
+	}
+	.mobile-nav {
+		display: inline;	
+		height: 100%;
+		margin-bottom: 0px;
+		li {
+			width: 100%;
+			border: 1px solid #bbb;
+			}
+		ul {
+			height: 100%
+		}
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 565px) {	
+	header { 	
+		background: #eee;
+		height: 100%;
+		position: relative;
+		text-align: center;		
+		.social-icon {		
+    	width: 12%;
+    	height: auto;
+    	margin: 15px 1.25% 15px;
+		}
+		.social_media_wrapper {
+    	margin-right: 0px;
+    	max-height: 100%;
+  		}
+  		h2 {
+  			float: none;
+  			width: 100%;
+  		}
+	}
+	nav {
+		display: none;
+	}
+	.blog-image {
+		display: none;
+	}
+	.mobile-nav {
+		display: inline;	
+		height: 100%;
+		margin-bottom: 0px;
+		li {
+			width: 100%;
+			border: 1px solid #bbb;
+			}
+		ul {
+			height: 100%
+		}
+	}
+}
+
+@media screen and (min-width: 566px) and (max-width: 640px) {	
+	header { 	
+		background: #eee;
+		height: 100%;
+		position: relative;
+		text-align: center;		
+		.social-icon {		
+    	width: 12%;
+    	height: auto;
+    	margin: 15px 1.25% 15px;
+		}
+		.social_media_wrapper {
+    	margin-right: 0px;
+    	max-height: 100%;
+  		}
+  		h2 {
+  			float: none;
+  			width: 100%;
+  		}
+	}
+	nav {
+		display: none;
+	}
+	.blog-image {
+		width: 
+		display: inline;
+	}
+	.mobile-nav {
+		display: inline;	
+		height: 100%;
+		margin-bottom: 0px;
+		li {
+			width: 100%;
+			border: 1px solid #bbb;
+			}
+		ul {
+			height: 100%
+		}
+	}
+}
+
+@media screen and (min-width: 641px) and (max-width: 850px) {	
+
+	header { 
+		background-image: url('../images/header3.jpg');
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		height: 330px;
+		max-height: 100%;
+		text-align: right;		
+		.social-icon {		
+    		width: 8%;
+    		height: auto;
+		}
+		.social_media_wrapper {
+			clear: both;
+    	margin-right: 0px;
+  	}
+  	h2 {
+			width: 35%;
+			float: right;		
+			display: inline-block;
+		}
+		h1 {
+			padding-top: 1%;
+		}
+	}
+
+	.blog-image {
+		display: inline;
+	}
+	.mobile-nav {
+		display: none;
+	}
+	
+	nav {
+		margin-bottom: 0;
+	}
+}

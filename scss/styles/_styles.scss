@@ -44,7 +44,8 @@ section {
   width: 900px;
 }
 
-nav {
+nav,
+.mobile-nav {
   background-color: #fff;
   box-shadow: 1px 1px 3px #333;
   height: 67px;
@@ -84,6 +85,9 @@ nav {
     border-bottom: 5px solid $dark-tan;
   }
 }
+.mobile-nav {
+  display: none;
+}
 
 header {
   background-image: url('../images/header3.jpg');
@@ -103,16 +107,19 @@ header {
 
   h1 {
     font-size: 70px;
-    padding-top: 50px;
+    padding-top: 5%;
   }
 
   h2 {
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 2%;
+    width: 50%;
+    float: right;
   }
 
   .social_media_wrapper {
     margin-right: 30px;
+    clear: both;
   }
 
   .social-icon {
@@ -131,6 +138,7 @@ header {
     }
   }
 }
+
 
 article {
   div {
@@ -159,7 +167,7 @@ article {
   img {
     clear: left;
     float: left;
-    height: 200px;
+    height: auto;
     margin-right: 20px;
     width: 200px;
   }
