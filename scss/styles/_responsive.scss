@@ -206,7 +206,7 @@
 }
 
  // SERVICES //
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
   .services-contact h3 {
     width: 100%;
   }
@@ -221,18 +221,8 @@
     padding-bottom: 5px;
   }
 
-  .services-offered:hover, 
-  .services-title {
-    cursor: default;
-  }
-
   .services-offered span {
     display: block; 
     width: 90%;
-  }
-
-  .services-offered:hover span {
-    left: 0;
-    position: relative;
   }
 }

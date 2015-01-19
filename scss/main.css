@@ -191,19 +191,12 @@ footer {
   list-style: none;
   padding-bottom: 5px; }
   .services-offered span {
-    color: #f8500f;
-    display: none;
+    display: block;
+    left: 20px;
+    position: relative;
+    color: #765923;
     font-size: 15px;
     font-weight: 500; }
-
-.services-offered:hover,
-.services-title {
-  cursor: default; }
-
-.services-offered:hover span {
-  display: block;
-  left: 20px;
-  position: relative; }
 
 .wufoo {
   margin: 20px auto;
@@ -381,7 +374,7 @@ footer {
   .ac_video,
   .ll_video {
     width: 65%; } }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
   .services-contact h3 {
     width: 100%; }
 
@@ -393,16 +386,8 @@ footer {
   .services-offered {
     padding-bottom: 5px; }
 
-  .services-offered:hover,
-  .services-title {
-    cursor: default; }
-
   .services-offered span {
     display: block;
-    width: 90%; }
-
-  .services-offered:hover span {
-    left: 0;
-    position: relative; } }
+    width: 90%; } }
 
 /*# sourceMappingURL=main.css.map */

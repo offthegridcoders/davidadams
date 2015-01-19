@@ -256,19 +256,12 @@ footer {
   padding-bottom: 5px;
 
   span { 
-    color: #f8500f;
-    display: none;  
+    display: block;
+    left: 20px;
+    position: relative;
+    color: #765923; 
     font-size: 15px;
     font-weight: 500;}
 }
 
-.services-offered:hover, 
-.services-title {
-  cursor: default;
-}
 
-.services-offered:hover span {
-  display: block;
-  left: 20px;
-  position: relative;
-}
