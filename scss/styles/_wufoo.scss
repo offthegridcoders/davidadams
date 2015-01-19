@@ -1,8 +1,8 @@
 
 .wufoo {
-  width: 500px;
-  max-width: 100%;
   margin: 20px auto;
+  max-width: 100%;
+  width: 500px;
 
   ul {
     list-style: none;
@@ -26,12 +26,12 @@
 
   input,
   textarea {
-    border-radius: 5px;
     border: solid 1px #999;
+    border-radius: 5px;
     margin-bottom: 15px;
     margin-top: 5px;
-    width: 100%;
     resize: none;
+    width: 100%;
   }
 
   .req {
@@ -44,9 +44,9 @@
   }
 
   button {
-    padding: 10px 20px;
-    border: solid 1px $dark-tan;
     background-color: $tan;
+    border: solid 1px $dark-tan;
     cursor: pointer;
+    padding: 10px 20px;
   }
 }
