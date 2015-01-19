@@ -172,12 +172,31 @@ footer {
 .services-contact {
   padding: 0 56px; }
   .services-contact .wufoo {
-    margin: 20px 0 0; }
+    margin: 20px auto 0; }
   .services-contact .bttxt {
     cursor: pointer;
     width: 100px; }
   .services-contact .bttxt:hover {
     background-color: #d6b474; }
+
+.services-contact h3,
+.services-title,
+.services-list {
+  margin: 0 auto 10px;
+  width: 600px; }
+
+.services-offered {
+  font-size: 18px;
+  font-weight: 800;
+  list-style: none;
+  padding-bottom: 5px; }
+  .services-offered span {
+    display: block;
+    left: 20px;
+    position: relative;
+    color: #765923;
+    font-size: 15px;
+    font-weight: 500; }
 
 .wufoo {
   margin: 20px auto;
@@ -209,8 +228,8 @@ footer {
   .wufoo .hide {
     display: none; }
   .wufoo button {
-    border: solid 1px #c4943a;
     background-color: #d6b474;
+    border: solid 1px #c4943a;
     cursor: pointer;
     padding: 10px 20px; }
 
@@ -355,5 +374,20 @@ footer {
   .ac_video,
   .ll_video {
     width: 65%; } }
+@media screen and (max-width: 700px) {
+  .services-contact h3 {
+    width: 100%; }
+
+  .services-title,
+  .services-list {
+    margin: 0 auto 10px;
+    width: 90%; }
+
+  .services-offered {
+    padding-bottom: 5px; }
+
+  .services-offered span {
+    display: block;
+    width: 90%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -228,7 +228,7 @@ footer {
   padding: 0 56px;
 
   .wufoo {
-    margin: 20px 0 0;
+    margin: 20px auto 0;
   }
 
   .bttxt {
@@ -240,3 +240,28 @@ footer {
     background-color: $tan;
   }
 }
+
+// SERVICES //
+.services-contact h3,
+.services-title,
+.services-list {
+  margin: 0 auto 10px;
+  width: 600px;
+}
+
+.services-offered { 
+  font-size: 18px;
+  font-weight: 800;  
+  list-style: none; 
+  padding-bottom: 5px;
+
+  span { 
+    display: block;
+    left: 20px;
+    position: relative;
+    color: #765923; 
+    font-size: 15px;
+    font-weight: 500;}
+}
+
+

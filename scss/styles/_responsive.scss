@@ -204,3 +204,25 @@
     width: 65%;
   }
 }
+
+ // SERVICES //
+@media screen and (max-width: 700px) {
+  .services-contact h3 {
+    width: 100%;
+  }
+
+  .services-title,
+  .services-list {
+    margin: 0 auto 10px;
+    width: 90%;
+  }
+
+  .services-offered {
+    padding-bottom: 5px;
+  }
+
+  .services-offered span {
+    display: block; 
+    width: 90%;
+  }
+}
