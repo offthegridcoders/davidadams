@@ -1,6 +1,6 @@
-$tan: #D6B474;
+$tan: #d6b474;
 $dark-tan: darken($tan, 15%);
-$lightest-gray: #F0F0F0;
+$lightest-gray: #f0f0f0;
 $gray: #777;
 
 .clearfix {
@@ -23,15 +23,14 @@ a {
 }
 
 body {
-  background: rgb(244,230,195); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(178, 177, 129, 0.23) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,230,195,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(178, 177, 129, 0.23) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(178, 177, 129, 0.23) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(178, 177, 129, 0.23) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(178, 177, 129, 0.23) 0%,rgba(255,255,255,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4e6c3', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
+  background: rgb(244, 230, 195); // Old browsers //
+  background: -moz-linear-gradient(top, rgba(178, 177, 129, .23) 0%, rgba(255, 255, 255, 1) 100%); // FF3.6+ //
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(244, 230, 195, 1)), color-stop(100%, rgba(255, 255, 255, 1))); // Chrome,Safari4+ //
+  background: -webkit-linear-gradient(top, rgba(178, 177, 129, .23) 0%, rgba(255, 55, 255, 1) 100%); // Chrome10+,Safari5.1+ //
+  background: -o-linear-gradient(top, rgba(178, 177, 129, .23) 0%, rgba(255, 255, 255, 1) 100%); // Opera 11.10+ //
+  background: -ms-linear-gradient(top, rgba(178, 177, 129, .23) 0%, rgba(255, 255, 255, 1) 100%); // IE10+ //
+  background: linear-gradient(to bottom, rgba(178, 177, 129, .23) 0%, rgba(255, 255, 255, 1) 100%); // W3C //
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4e6c3', endColorstr='#fff',GradientType=0); // IE6-9 //
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -61,10 +60,10 @@ nav,
     width: 100%;
   }
 
-  li {
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
+  li {    
+    -moz-box-sizing: border-box;    // Firefox, other Gecko //
+    -webkit-box-sizing: border-box; // Safari/Chrome, other WebKit //
+    box-sizing: border-box;         // Opera/IE 8+ //
     display: inline-block;
     padding: 20px;
     text-transform: capitalize;
@@ -80,11 +79,12 @@ nav,
   }
 
   .active {
-    color: #fff;
     background-color: $tan;
     border-bottom: 5px solid $dark-tan;
+    color: #fff;
   }
 }
+
 .mobile-nav {
   display: none;
 }
@@ -111,30 +111,30 @@ header {
   }
 
   h2 {
+    float: right;
     font-size: 30px;
     padding-top: 2%;
     width: 50%;
-    float: right;
   }
 
   .social_media_wrapper {
-    margin-right: 30px;
     clear: both;
+    margin-right: 30px;
   }
 
   .social-icon {
     display: inline-block;
-    width: 40px;
     height: 40px;
-    margin: 15px 5px 0;    
-    -webkit-transition: -webkit-transform .2s ease-in-out;
-    -ms-transition: -ms-transform .2s ease-in-out;
+    margin: 15px 5px 0; 
     transition: transform .2s ease-in-out; 
+    width: 40px;   
+    -ms-transition: -ms-transform .2s ease-in-out;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
 
     &:hover {
-      transform:rotate(7deg);
-      -ms-transform:rotate(7deg);
-      -webkit-transform:rotate(7deg);
+      transform: rotate(7deg);
+      -ms-transform: rotate(7deg);
+      -webkit-transform: rotate(7deg);
     }
   }
 }
@@ -165,14 +165,14 @@ article {
   }
 
   .blog-image {    
-    background-size: cover;
+    background-position: 50%;
     background-repeat: no-repeat;
+    background-size: cover;
     clear: left;
     float: left;
     height: 200px;
     margin-right: 20px;
     width: 200px;
-    background-position: 50%;
   }
 
   p {
@@ -231,12 +231,12 @@ footer {
     margin: 20px 0 0;
   }
 
-  .btTxt {
-    width: 100px;
+  .bttxt {
     cursor: pointer;
+    width: 100px;
   }
 
-  .btTxt:hover {
+  .bttxt:hover {
     background-color: $tan;
   }
 }
