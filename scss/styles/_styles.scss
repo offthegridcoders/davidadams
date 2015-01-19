@@ -228,7 +228,7 @@ footer {
   padding: 0 56px;
 
   .wufoo {
-    margin: 20px 0 0;
+    margin: 20px auto 0;
   }
 
   .bttxt {
@@ -239,4 +239,36 @@ footer {
   .bttxt:hover {
     background-color: $tan;
   }
+}
+
+// SERVICES //
+.services-contact h3,
+.services-title,
+.services-list {
+  margin: 0 auto 10px;
+  width: 600px;
+}
+
+.services-offered { 
+  font-size: 18px;
+  font-weight: 800;  
+  list-style: none; 
+  padding-bottom: 5px;
+
+  span { 
+    color: #f8500f;
+    display: none;  
+    font-size: 15px;
+    font-weight: 500;}
+}
+
+.services-offered:hover, 
+.services-title {
+  cursor: default;
+}
+
+.services-offered:hover span {
+  display: block;
+  left: 20px;
+  position: relative;
 }
