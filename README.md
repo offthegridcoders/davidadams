@@ -1,6 +1,6 @@
 # David Carlton Adams Official Website
 
-You can see the progress here: [LINK](http://thewickedwebdev.github.io/davidadams/)
+You can see the progress here: [LINK](http://offthegridcoders.github.io/davidadams/)
 
 Using SCSS and static HTML
 
